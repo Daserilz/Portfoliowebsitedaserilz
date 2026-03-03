@@ -34,7 +34,7 @@ export function Portfolio() {
       title: 'AI vs Alien (GDD)',
       category: 'scripting',
       description: 'เอกสารของเกม AI vs Alien โปรเจคในช่วงปีสอง',
-      image: 'https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RlJTIwcHJvZ3JhbW1pbmclMjBzY3JlZW58ZW58MXx8fHwxNzcxMzE3OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: Assets.AiVSAlien,
       tags: [ 'GDD', 'Game Design' , ],
       demo: 'https://docs.google.com/document/d/15FYmVBnRDuLkaYbSY-RD3MhFa0jvRcfax7Wq2S_rGrk/edit?usp=sharing'
     },
