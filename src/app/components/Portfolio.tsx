@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import {Assets} from '../images';
+import {Assets} from '../../images';
 
 type Category = 'all' | '3d' | 'scripting' | 'games' | 'ofter' ;
 
