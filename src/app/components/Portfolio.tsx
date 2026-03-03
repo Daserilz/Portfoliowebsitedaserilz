@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import {Assets} from '../images';
 
 type Category = 'all' | '3d' | 'scripting' | 'games' | 'ofter' ;
 
@@ -24,7 +25,7 @@ export function Portfolio() {
       title: 'Isometric Sci-fi Weapon Room',
       category: '3d',
       description: 'โมเดลห้องแบบ Isometric พร้อม Texture',
-      image: 'https://outside-tan-llwr8nkkap.edgeone.app/UE_SciFiWeaponShop.png',
+      image: 'Assets.UE_ScifiWeaponShop',
       tags: ['Maya', '3D Modeling', 'Texture'],
       demo: 'https://skfb.ly/pHnwE'
     },
@@ -42,7 +43,7 @@ export function Portfolio() {
       title: 'Prasath Daek',
       category: 'games',
       description: 'เกมผจญภัยสยองขวัญ ที่ลองลง Game jam เป็นครั้งแรก',
-      image: 'https://drive.google.com/file/d/17oZf3JemBWxEDGw7q_8AvOWnYFeyRQq_/view?usp=drive_link',
+      image: 'Assets.g',
       tags: ['Unity', 'Game Project'],
       demo: 'https://drive.google.com/file/d/1Qpi7jOMx47dp6F3_wEZ8uDQy0dH8r1BX/view?usp=sharing'
     },
