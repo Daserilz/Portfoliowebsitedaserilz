@@ -66,12 +66,12 @@ export function Portfolio() {
     },
     {
       id: 6,
-      title: 'Action Platformer',
+      title: 'Try Not TO GET EAT!',
       category: 'games',
-      description: 'เกม platformer แนว action พร้อมระบบ combat',
+      description: 'เกมแนว Rogue Like ธีมนักวิจัยปาโพชั่นใส่สิ่งมีชีวิตกลายพันธุ์',
       image: 'https://images.unsplash.com/photo-1723032321111-7ea8b009f7ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1lJTIwZGV2ZWxvcGVyJTIwd29ya3NwYWNlJTIwZGVza3xlbnwxfHx8fDE3NzEzMTc5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Unity', 'PC Game', '2D/3D'],
-      demo: 'https://example.com'
+      tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
+      demo: 'https://drive.google.com/file/d/1fCOvQ1X7BF5BgD2-0zN6aiWwuAOeiAqr/view?usp=drive_link'
     }
   ];
 
