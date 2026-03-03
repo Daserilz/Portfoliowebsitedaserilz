@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   return (
@@ -12,21 +12,21 @@ export function Hero() {
               </div>
             </div>
           </div>
-          
+
           <h1 className="text-5xl md:text-6xl mb-4">
             Unity Game Developer
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-purple-200 mb-8">
-            สร้างสรรค์เกมและประสบการณ์ดิจิทัลที่น่าประทับใจ
+            Experience and Achievements since 2023 to Now.
           </p>
-          
+
           <div className="flex gap-4 justify-center mb-12">
             <a
               href="#about"
               className="px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors"
             >
-              เกี่ยวกับฉัน
+              About Me
             </a>
             <a
               href="#portfolio"
@@ -35,10 +35,10 @@ export function Hero() {
               ดูผลงาน
             </a>
           </div>
-          
+
           <div className="flex gap-6 justify-center">
             <a
-              href="https://github.com"
+              href="https://github.com/Daserilz"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-colors"

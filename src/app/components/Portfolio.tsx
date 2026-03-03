@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
-type Category = 'all' | '3d' | 'scripting' | 'games';
+type Category = 'all' | '3d' | 'scripting' | 'games' | 'ofter' ;
 
 interface Project {
   id: number;
@@ -21,29 +21,30 @@ export function Portfolio() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Fantasy RPG Character',
+      title: 'Isometric Sci-fi Weapon Room',
       category: '3d',
-      description: 'โมเดลตัวละครแฟนตาซี พร้อม rigging และ animation',
-      image: 'https://images.unsplash.com/photo-1650081221669-fccab00c76a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzRCUyMGNoYXJhY3RlciUyMG1vZGVsfGVufDF8fHx8MTc3MTMxNzkwOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Blender', '3D Modeling', 'Rigging']
+      description: 'โมเดลห้องแบบ Isometric พร้อม Texture',
+      image: 'https://outside-tan-llwr8nkkap.edgeone.app/UE_SciFiWeaponShop.png',
+      tags: ['Maya', '3D Modeling', 'Texture'],
+      demo: 'https://skfb.ly/pHnwE'
     },
     {
       id: 2,
-      title: 'Inventory System',
+      title: 'AI vs Alien (GDD)',
       category: 'scripting',
-      description: 'ระบบกระเป๋าที่ซับซ้อนพร้อม drag & drop และ database',
+      description: 'เอกสารของเกม AI vs Alien โปรเจคในช่วงปีสอง',
       image: 'https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RlJTIwcHJvZ3JhbW1pbmclMjBzY3JlZW58ZW58MXx8fHwxNzcxMzE3OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['C#', 'Unity', 'UI System'],
-      github: 'https://github.com'
+      tags: [ 'GDD', 'Game Design' , ],
+      demo: 'https://docs.google.com/document/d/15FYmVBnRDuLkaYbSY-RD3MhFa0jvRcfax7Wq2S_rGrk/edit?usp=sharing'
     },
     {
       id: 3,
-      title: 'Dungeon Crawler Mobile',
+      title: 'Prasath Daek',
       category: 'games',
-      description: 'เกมผจญภัยในดันเจี้ยนสำหรับมือถือ',
-      image: 'https://images.unsplash.com/photo-1645109870868-e1b6f909e444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBnYW1lJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MTMxNzkwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Unity', 'Mobile', 'Game Design'],
-      demo: 'https://example.com'
+      description: 'เกมผจญภัยสยองขวัญ ที่ลองลง Game jam เป็นครั้งแรก',
+      image: 'https://drive.google.com/file/d/17oZf3JemBWxEDGw7q_8AvOWnYFeyRQq_/view?usp=drive_link',
+      tags: ['Unity', 'Game Project'],
+      demo: 'https://drive.google.com/file/d/1Qpi7jOMx47dp6F3_wEZ8uDQy0dH8r1BX/view?usp=sharing'
     },
     {
       id: 4,
@@ -75,9 +76,10 @@ export function Portfolio() {
 
   const categories = [
     { id: 'all', label: 'ทั้งหมด' },
-    { id: '3d', label: '3D Design' },
-    { id: 'scripting', label: 'Scripting' },
-    { id: 'games', label: 'เกม' }
+     { id: 'games', label: 'Game Project' },
+    { id: '3d', label: '3D Design and Animate' },
+    { id: 'scripting', label: 'Game Design and System' },
+    { id: 'ofter', label: 'อื่นๆ' }
   ];
 
   const filteredProjects = activeCategory === 'all'
