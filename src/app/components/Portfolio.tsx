@@ -25,7 +25,7 @@ export function Portfolio() {
       title: 'Isometric Sci-fi Weapon Room',
       category: '3d',
       description: 'โมเดลห้องแบบ Isometric พร้อม Texture',
-      image: Assets.UE_ScifiWeaponShop,
+      image: Assets.UE_SciFiWeaponShop,
       tags: ['Maya', '3D Modeling', 'Texture'],
       demo: 'https://skfb.ly/pHnwE'
     },
