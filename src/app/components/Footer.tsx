@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="text-center">
           <p className="flex items-center justify-center gap-2 text-gray-400">
-            Made with <Heart size={16} className="text-red-500 fill-current" /> by Unity Game Developer
+            Made with <Heart size={16} className="text-red-500 fill-current" /> by Daserilz
           </p>
           <p className="text-gray-500 text-sm mt-2">
             © 2026 All rights reserved
