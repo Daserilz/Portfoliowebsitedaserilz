@@ -26,7 +26,7 @@ export function Portfolio() {
       category: '3d',
       description: 'โมเดลห้องแบบ Isometric พร้อม Texture',
       image: Assets.UE_SciFiWeaponShop,
-      tags: ['Maya', '3D Modeling', 'Texture'],
+      tags: ['Maya', '3D Modeling', 'Texturing'],
       demo: 'https://skfb.ly/pHnwE'
     },
     {
@@ -49,11 +49,12 @@ export function Portfolio() {
     },
     {
       id: 4,
-      title: 'Environment Design',
+      title: 'Demon God Animate ',
       category: '3d',
-      description: 'สภาพแวดล้อมแบบ low-poly สำหรับเกม',
-      image: 'https://images.unsplash.com/photo-1676238560626-45d35b63b38f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzRCUyMG1vZGVsaW5nJTIwZGVzaWduJTIwc29mdHdhcmV8ZW58MXx8fHwxNzcxMzE3OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['3D Modeling', 'Environment', 'Texturing']
+      description: 'show animate model in Unity ',
+      image: Assets.DemonAnim,
+      tags: ['3D Animate', 'Rigging ' ,'Texturing' , ],
+      demo : 'https://youtu.be/n_VARHtAxig'
     },
     {
       id: 5,
@@ -69,7 +70,7 @@ export function Portfolio() {
       title: 'Try Not TO GET EAT!',
       category: 'games',
       description: 'เกมแนว Rogue Like ธีมนักวิจัยปาโพชั่นใส่สิ่งมีชีวิตกลายพันธุ์',
-      image: 'https://images.unsplash.com/photo-1723032321111-7ea8b009f7ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1lJTIwZGV2ZWxvcGVyJTIwd29ya3NwYWNlJTIwZGVza3xlbnwxfHx8fDE3NzEzMTc5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: Assets.TryNot,
       tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
       demo: 'https://drive.google.com/file/d/1fCOvQ1X7BF5BgD2-0zN6aiWwuAOeiAqr/view?usp=drive_link'
     }
