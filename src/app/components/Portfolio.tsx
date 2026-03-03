@@ -25,7 +25,7 @@ export function Portfolio() {
       title: 'Isometric Sci-fi Weapon Room',
       category: '3d',
       description: 'โมเดลห้องแบบ Isometric พร้อม Texture',
-      image: 'Assets.UE_ScifiWeaponShop',
+      image: Assets.UE_ScifiWeaponShop,
       tags: ['Maya', '3D Modeling', 'Texture'],
       demo: 'https://skfb.ly/pHnwE'
     },
@@ -43,7 +43,7 @@ export function Portfolio() {
       title: 'Prasath Daek',
       category: 'games',
       description: 'เกมผจญภัยสยองขวัญ ที่ลองลง Game jam เป็นครั้งแรก',
-      image: 'Assets.g',
+      image: Assets.g,
       tags: ['Unity', 'Game Project'],
       demo: 'https://drive.google.com/file/d/1Qpi7jOMx47dp6F3_wEZ8uDQy0dH8r1BX/view?usp=sharing'
     },
