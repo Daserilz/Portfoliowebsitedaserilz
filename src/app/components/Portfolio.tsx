@@ -58,12 +58,12 @@ export function Portfolio() {
     },
     {
       id: 5,
-      title: 'AI Behavior System',
-      category: 'scripting',
-      description: 'ระบบ AI ที่ใช้ behavior tree และ state machine',
-      image: 'https://images.unsplash.com/photo-1676263813382-bb5ba4b63f91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml0eSUyMGdhbWUlMjBlbmdpbmUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzcxMzE3OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['C#', 'AI', 'Unity'],
-      github: 'https://github.com'
+      title: 'AI vs Alien',
+      category: 'games',
+      description: 'เกมแนว Shooting FPS ยิงเอเลี่ยน ที่เป็นโปรเจคปี 2',
+      image: '3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml0eSUyMGdhbWUlMjBlbmdpbmUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzcxMzE3OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      tags: ['Unity', 'Game Project' , '3D'],
+      demo: 'https://www.youtube.com/watch?v=rw1f3DggoSY'
     },
     {
       id: 6,
