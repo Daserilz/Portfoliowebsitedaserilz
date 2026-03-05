@@ -60,7 +60,7 @@ export function Portfolio() {
       id: 5,
       title: 'AI vs Alien',
       category: 'games',
-      description: 'เกมแนว Shooting FPS ยิงเอเลี่ยน ที่เป็นโปรเจคปี 2',
+      description: 'เกมแนว Shooting FPS ที่ผู้เล่นรับบทเป็น Ai คอยสู้กับเอเลี่ยน ',
       image: Assets.AivsAlienGame,
       tags: ['Unity', 'Game Project' , '3D'],
       demo: 'https://www.youtube.com/watch?v=rw1f3DggoSY'
