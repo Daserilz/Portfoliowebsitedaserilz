@@ -81,7 +81,7 @@ export function Portfolio() {
       description: 'เกมแนว RPG ',
       image: Assets.TryNot,
       tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
-      demo: 'https://drive.google.com/file/d/1fCOvQ1X7BF5BgD2-0zN6aiWwuAOeiAqr/view?usp=drive_link'
+      demo: 'https://youtu.be/X_-2huR85hg'
     }
   ];
 
