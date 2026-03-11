@@ -78,8 +78,8 @@ export function Portfolio() {
       id: 7,
       title: 'Kaika Jouney',
       category: 'games',
-      description: 'เกมแนว RPG ',
-      image: Assets.TryNot,
+      description: 'เกมแนว RPG เก็บเลเวล ลงดันเจี้ยน',
+      image: Assets.kaika,
       tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
       demo: 'https://youtu.be/X_-2huR85hg'
     }
