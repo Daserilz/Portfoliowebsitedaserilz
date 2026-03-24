@@ -1,5 +1,6 @@
 import { Code, Box, Gamepad2, Sparkles } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import {Assets} from '../images';
 
 export function About() {
   const skills = [
