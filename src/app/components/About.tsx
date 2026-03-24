@@ -37,7 +37,7 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1723032321111-7ea8b009f7ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1lJTIwZGV2ZWxvcGVyJTIwd29ya3NwYWNlJTIwZGVza3xlbnwxfHx8fDE3NzEzMTc5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src=Assets.Me
                 alt="Workspace"
                 className="rounded-lg shadow-xl w-full"
               />
