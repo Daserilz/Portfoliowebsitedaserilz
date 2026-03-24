@@ -36,8 +36,8 @@ export function About() {
           
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <ImageWithFallback
-                src= "Assets.Me"
+              <Assets
+                src= Assets.Me
                 alt="Workspace"
                 className="rounded-lg shadow-xl w-full"
               />
