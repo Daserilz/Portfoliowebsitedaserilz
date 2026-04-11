@@ -83,6 +83,15 @@ export function Portfolio() {
       tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
       demo: 'https://youtu.be/X_-2huR85hg'
     }
+     {
+      id: 8,
+      title: 'Kaika Jouney System Diagram',
+      category: 'scripting',
+      description: 'System Diagram ของ Kaika',
+      image: Assets.kaika,
+      tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
+      demo: 'https://drive.google.com/file/d/1bK2e883pMuot7DlbQ_yE_aiwiKMQcxiP/view?usp=sharing'
+    }
   ];
 
   const categories = [
