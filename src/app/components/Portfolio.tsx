@@ -90,7 +90,7 @@ export function Portfolio() {
       description: 'System Diagram ของ Kaika',
       image: Assets.kaika,
       tags: ['Unity', 'Game Project ' ,'PC Game', '3D'],
-      demo: 'https://drive.google.com/file/d/1bK2e883pMuot7DlbQ_yE_aiwiKMQcxiP/view?usp=sharing'
+      demo: 'https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=347%20Final%20Project&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1bK2e883pMuot7DlbQ_yE_aiwiKMQcxiP%26export%3Ddownload'
     }
   ];
 
