@@ -8,6 +8,7 @@ import g from './g.png';
 import kaika from './kaika.PNG';
 import Me from './Me.jpg';
 import pumk from './pumk.PNG';
+import pumkmenu from './pumkmenu.png';
 
 // 2. Export ออกไปเป็น Object ชื่อ Assets ตามที่ Portfolio.tsx เรียกใช้
 export const Assets = {
@@ -19,5 +20,6 @@ export const Assets = {
   g,
   kaika,
   Me,
-  pumk
+  pumk,
+  pumkmenu
 };
