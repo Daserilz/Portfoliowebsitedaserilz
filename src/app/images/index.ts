@@ -7,7 +7,7 @@ import UE_SciFiWeaponShop from './UE_SciFiWeaponShop.png';
 import g from './g.png';
 import kaika from './kaika.PNG';
 import Me from './Me.jpg';
-import pumk form './pumk.PNG';
+import pumk from './pumk.PNG';
 
 // 2. Export ออกไปเป็น Object ชื่อ Assets ตามที่ Portfolio.tsx เรียกใช้
 export const Assets = {
