@@ -97,7 +97,7 @@ export function Portfolio() {
       title: 'Pumpkin Rush Hotel',
       category: 'games',
       description: 'เกมแนวจัดการเวลา (Time Management) ที่ให้สวมบทเป็นพนักงานโรงแรมหัวฟักทอง คอยดูแลแขกที่เข้าพัก',
-      image: Assets.pumk,
+      image: Assets.pumkmenu,
       tags: ['Unity', 'Game Project ' , '2D'],
       demo: 'https://loki33haha.itch.io/pumkin'
     },
