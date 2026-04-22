@@ -91,15 +91,6 @@ export function Portfolio() {
       image: Assets.kaika,
       tags: ['PC Game', 'System','Diagram'],
       demo: 'https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=347%20Final%20Project&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1bK2e883pMuot7DlbQ_yE_aiwiKMQcxiP%26export%3Ddownload'
-    },
-    { 
-      id: 9,
-      title: 'Pumpkin Rush Hotel',
-      category: 'games',
-      description: 'เกมแนว เกมแนวจัดการเวลา (Time Management) ที่ให้สวมบทเป็นพนักงานโรงแรมหัวฟักทอง คอยดูแลแขกที่เข้าพัก',
-      image: Assets.pumk,
-      tags: ['Unity', 'Game Project ' , '2D'],
-      demo: 'https://loki33haha.itch.io/pumkin'
     }
   ];
 
