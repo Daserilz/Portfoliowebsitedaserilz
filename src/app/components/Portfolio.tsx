@@ -100,7 +100,7 @@ export function Portfolio() {
       image: Assets.pumk,
       tags: ['Unity', 'Game Project ' , '2D'],
       demo: 'https://loki33haha.itch.io/pumkin'
-    }, 
+    }
   ];
 
   const categories = [
